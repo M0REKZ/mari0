@@ -6,7 +6,8 @@
 
 function love.load()
 	love.filesystem.setIdentity("mari0")
-
+	
+	print("Test")
 	print(love.filesystem.getSaveDirectory():match("LOVE"))
 
 	if not love.filesystem.getSaveDirectory():match("LOVE") then
